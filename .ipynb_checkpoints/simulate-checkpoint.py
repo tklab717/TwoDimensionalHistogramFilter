@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 class Simulation(object):
 	def __init__(self, grid, blur, p_hit,start_pos=None):
 		"""
-
+        
 		"""
 		self.grid = grid
 		self.beliefs = localizer.initialize_beliefs(self.grid)
