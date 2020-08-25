@@ -15,6 +15,20 @@ def initialize_beliefs(grid):
     return beliefs
 
 def sense(color, grid, beliefs, p_hit, p_miss):
+"""
+
+    Args:
+        color:
+        grid:
+        beliefs:    current beliefs of robot location
+        p_hit:      
+        p_miss:
+    
+    return:
+        new_beliefs:
+    
+"""
+    
     new_beliefs = []
 
     #
