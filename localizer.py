@@ -15,7 +15,7 @@ def initialize_beliefs(grid):
     return beliefs
 
 def sense(color, grid, beliefs, p_hit, p_miss):
-"""
+    """
 
     Args:
         color:
@@ -27,7 +27,7 @@ def sense(color, grid, beliefs, p_hit, p_miss):
     return:
         new_beliefs:
     
-"""
+    """
     
     new_beliefs = []
 
